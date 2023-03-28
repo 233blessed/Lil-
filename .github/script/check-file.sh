@@ -13,5 +13,5 @@ else
   echo "Missing $SEARCH in $FILE"
   echo "----------------"
   echo "$(cat $FILE)"
-  exit 204  # We're sending a weird code so it looks different from other "failures"
-fi
+  exit 204  # if failures are not resolved back to main page "failures"
+
